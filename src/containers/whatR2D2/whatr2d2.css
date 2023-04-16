@@ -1,0 +1,107 @@
+.r2d2__whatr2d2 {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    
+}
+
+.r2d2__whatr2d2-feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.r2d2__whatr2d2-feature .r2d2__features-container_feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.r2d2__whatr2d2-feature .r2d2__features-container_feature-text {
+    max-width: 700px;
+}
+
+.r2d2__whatr2d2-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.r2d2__whatr2d2-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.r2d2__whatr2d2-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.r2d2__whatr2d2-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.r2d2__whatr2d2-container .r2d2__features-container_feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.r2d2__whatr2d2-container .r2d2__features-container_feature-text {
+    margin-top: 0.5remr2d2
+}
+@media screen and (max-width: 850px) {
+    .r2d2__whatr2d2-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .r2d2__whatr2d2-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .r2d2__whatr2d2-feature .r2d2__features-contair2d2feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .r2d2__whatr2d2-feature .r2d2__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .r2d2__whatr2d2-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .r2d2__whatr2d2-container .r2d2__features-container_feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

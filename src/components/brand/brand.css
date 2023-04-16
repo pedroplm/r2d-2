@@ -1,0 +1,10 @@
+.r2d2Brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.r2d2Brand div{
+    padding: 2rem 4rem 2rem 4rem;
+}
